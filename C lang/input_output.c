@@ -61,10 +61,11 @@ int main() {
 	// scanf("%f%f", &cp, &sp);
 	// profit = (sp - cp) * 25 / 12;
 	// printf(" proft earnd upto selling 25 banana is %.3f\n", profit);
-	char cx;
-	printf("enter the character: ");
-	scanf("%c",&cx);
-	printf("the ascii value is: %d", cx);
-	printf("\n");
+	// char cx;
+	// printf("enter the character: ");
+	// scanf("%c",&cx);
+	// printf("the ascii value is: %d", cx);
+	// printf("\n");
+	
 	return 0;
 }
