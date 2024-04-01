@@ -56,11 +56,11 @@ int main() {
 	// printf(" the volume of cuboid is: %d", l * w * h);
 	// printf("\n");
 
-	// float cp, sp, profit;
-	// printf("enter the cost price and selling price of bnana per deson: ");
-	// scanf("%f%f", &cp, &sp);
-	// profit = (sp - cp) * 25 / 12;
-	// printf(" proft earnd upto selling 25 banana is %.3f\n", profit);
+	float cp, sp, profit;
+	printf("enter the cost price and selling price of bnana per deson: ");
+	scanf("%f%f", &cp, &sp);
+	profit = (sp - cp) * 25 / 12;
+	printf(" proft earnd upto selling 25 banana is %.3f\n", profit);
 
 	return 0;
 }
