@@ -1,12 +1,9 @@
 #include <stdio.h>
 
-int  main(void) {
+int main(void) {
 
-	int x = 5, y;
-	// printf("%d", x++);
-	// printf(" %d", x);
-	y = ++x;
-	printf("%d, %d", x,y);
+	int v = 5;
+
 	printf("\n");
 	return 0;
 }
