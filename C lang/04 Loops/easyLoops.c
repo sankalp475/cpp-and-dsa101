@@ -57,7 +57,7 @@ int main() {
 
 	printf("\ntable of five: \n");
 	for (int i = 1; i <= 10;i++) {
-		    printf("%d x %d = %d\n", 5, i, 5 * 1);
+		printf("%d x %d = %d\n", 5, i, 5 * 1);
 	}
 		printf("\n");
 	return 0;
