@@ -14,6 +14,7 @@ int  main(void) {
 	printf(" the area of triangle is : %f",area);
 
 
+
 	printf("\n");
 	return 0;
 }
