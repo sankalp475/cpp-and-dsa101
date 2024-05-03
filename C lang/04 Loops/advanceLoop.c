@@ -75,29 +75,29 @@ int main()
 	// 	c=c*0;
 	// 	len=len+1;
 	// }
-    int number, val=1, isArmstrong=0;
-	printf("enter the number: ");
-	scanf("%d",&number);
-    int _num_ = number, l=0;
-    while(_num_ != 0) {
-		l++;
-        _num_ = _num_ / 10;
-    }
-    int num = number;
-	while(num != 0) {
-		for(int i=l;i>0;i--) {
-           val = val * (num % 10);
-		}
-		isArmstrong += val;
-		val=val * 0 + 1;
-		num = num / 10;
-	}
+    // int number, val=1, isArmstrong=0;
+	// printf("enter the number: ");
+	// scanf("%d",&number);
+    // int _num_ = number, l=0;
+    // while(_num_ != 0) {
+	// 	l++;
+    //     _num_ = _num_ / 10;
+    // }
+    // int num = number;
+	// while(num != 0) {
+	// 	for(int i=l;i>0;i--) {
+    //        val = val * (num % 10);
+	// 	}
+	// 	isArmstrong += val;
+	// 	val=val * 0 + 1;
+	// 	num = num / 10;
+	// }
 
-	if(isArmstrong == number) {
-		printf(" the number %d is armstrong number", number);
-	} else {
-		printf(" the number %d is not a armstrong number", number);
-	}
+	// if(isArmstrong == number) {
+	// 	printf(" the number %d is armstrong number", number);
+	// } else {
+	// 	printf(" the number %d is not a armstrong number", number);
+	// }
 
 
 
