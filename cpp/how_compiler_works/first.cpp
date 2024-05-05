@@ -2,6 +2,6 @@
 
 int main() {
 	std::cout << "hello world!";
-     std::cin.get();
+    std::cin.get();
 
 }
