@@ -71,7 +71,7 @@ int main() {
 	printf("enter the ascii code: ");
 	scanf("%d", &xf);
 	printf("the character is: %c", xf);
-
+  
 	int x, y, z;
 	printf("enter three character: ");
 	scanf("%d %d %d", &x, &y, &z);
