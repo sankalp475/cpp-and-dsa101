@@ -10,7 +10,6 @@ int add(int a, int b) {
 	return a+b;
 }
 
-
 void strupr(std::string* __string1, std::string* __string2) {
 	size_t length  = __string1->size();
     for(int i=0; i<length; i++) {
@@ -21,12 +20,7 @@ void strupr(std::string* __string1, std::string* __string2) {
 	}
 }
 
-void palindromString(std::string inpstr) {
 
-	for(int i=0; i<inpstr.size()/2; i++) {
-
-	}
-}
 
 void printHello() {
 	std::cout << "hello world";
@@ -40,6 +34,8 @@ int digitSum(int n) {
 	}
 	return digit_sum;
 }
+
+
 
 
 int main() {
